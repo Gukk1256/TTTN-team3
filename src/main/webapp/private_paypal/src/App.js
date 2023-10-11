@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useEffect, useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
@@ -18,6 +19,12 @@ if(loading) {
     return <h1>loading...</h1>
 }
 
+=======
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+>>>>>>> 411c220 (Test push)
   return (
     <div className="App">
       <header className="App-header">
@@ -34,9 +41,12 @@ if(loading) {
           Learn React
         </a>
       </header>
+<<<<<<< HEAD
       <body>
           {accounts.map(account => <div>{account.username} {account.password}</div>)}
       </body>
+=======
+>>>>>>> 411c220 (Test push)
     </div>
   );
 }
